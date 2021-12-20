@@ -1,0 +1,14 @@
+1. Scanner 클래스 : 유저에게서 input을 받을 수 있음.
+import java.util.Scanner 필요.
+인스턴스 변수 필요.
+인스턴스 생성시 Scanner 변수명 = new Scanner(System.in);
+(인스턴스 변수명).next()
+
+2. Random 클래스 : 난수를 생성 가능.
+import java.util.Random 필요.
+인스턴스 변수 필요.
+(인스턴스 변수명).nextInt(n); -> n 미만의 정수를 생성
+
+3. 조건문의 활용
+
+if 조건문 안에 다시금 if를 사용하여 조건을 제한할 수 있음 -> 반드시 기억!
